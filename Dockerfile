@@ -14,4 +14,4 @@ COPY src/ .
 
 EXPOSE 5000
 ENTRYPOINT ["python", "-u"]
-CMD ["webtest.py"]
+CMD ["app.py"]
